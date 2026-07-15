@@ -1,24 +1,26 @@
 # CodeAlpha Email Extractor
 
-## Description
-A Python automation project that extracts email addresses from a text file using Regular Expressions (Regex) and saves them into a separate file.
+## Project Overview
+This project automatically extracts email addresses from a text file using Python Regular Expressions (Regex) and stores them in a separate file.
 
 ## Features
-- Reads text from a file
-- Extracts email addresses using Regex
-- Saves extracted emails to another file
-- Displays the total number of emails found
+- Read text data from files
+- Extract email addresses using Regex
+- Save extracted emails
+- Count total emails found
 
 ## Technologies Used
 - Python
-- Regex (re module)
+- Regex
 - File Handling
 
-## How to Run
-
-```bash
-python email_extractor.py
-```
+## Project Structure
+CodeAlpha_Email_Extractor/
+│
+├── email_extractor.py
+├── data.txt
+├── emails.txt
+└── README.md
 
 ## Author
 Kavali Krishna Kanth
